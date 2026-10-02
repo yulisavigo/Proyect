@@ -4,4 +4,4 @@ class Reporte:
 class GuardadorReporte:
     def guardar(self, reporte: Reporte, ruta: str):
         with open(ruta, "w") as f:
-         f.write(reporte.contenido)
+         f.write(reporte.contenido) 
